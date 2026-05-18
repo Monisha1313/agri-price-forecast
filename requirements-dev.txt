@@ -1,0 +1,10 @@
+# Dev dependencies — not needed in production
+-r requirements.txt
+
+pytest==8.2.2
+pytest-cov==5.0.0
+black==24.4.2
+ruff==0.4.7
+ipykernel==6.29.4        # Jupyter inside VSCode
+nbformat==5.10.4
+httpie==3.2.3             # CLI API testing (alternative to Postman)

@@ -1,0 +1,65 @@
+# ============================================================
+# agri-price-forecast — Python dependencies
+# Install: pip install -r requirements.txt
+# Python 3.11+ required
+# ============================================================
+
+# --- Core data stack ---
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.0
+seaborn==0.13.2
+
+nbformat>=4.2.0
+# --- Database ---
+sqlalchemy==2.0.30
+# Uncomment for PostgreSQL (production):
+# psycopg2-binary==2.9.9
+
+# --- Web scraping ---
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.2.2              # Faster BS4 parser
+
+# --- Weather API ---
+openmeteo-requests==1.2.0
+requests-cache==1.2.0
+retry-requests==2.0.0
+
+# --- ML: classical ---
+statsmodels==0.14.2      # ARIMA / SARIMA
+scikit-learn==1.5.0
+xgboost==2.0.3
+lightgbm==4.3.0
+prophet==1.1.5
+
+# --- ML: deep learning ---
+torch==2.3.0
+pytorch-forecasting==1.7.0
+pytorch-lightning==2.2.4
+
+# --- Experiment tracking ---
+mlflow==2.13.0
+
+# --- Feature importance / explainability ---
+shap==0.45.0
+
+# --- API ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-dotenv==1.0.1
+
+# --- Scheduling ---
+apscheduler==3.10.4
+
+# --- Dashboard ---
+streamlit==1.35.0
+plotly==5.22.0
+folium==0.16.0
+streamlit-folium==0.20.0
+
+# --- Utilities ---
+tqdm==4.66.4             # Progress bars for long scraping jobs
+python-dateutil==2.9.0
+pyarrow==15.0.2          # Fast parquet I/O for large datasets
