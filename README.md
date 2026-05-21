@@ -2,7 +2,7 @@
 
 > AI/ML-powered price forecasting for agricultural commodities — beating ARIMA baselines using deep learning, weather data, and satellite crop indices.
 
-Built as part of the Smart India Hackathon 2024 problem statement on AI-ML based models for predicting prices of agri-horticultural commodities. Targets the Department of Consumer Affairs' mandate to stabilise essential food commodity prices through data-driven market interventions.
+Built from the Smart India Hackathon 2024 problem statements on AI-ML based models for predicting prices of agri-horticultural commodities. Targets the Department of Consumer Affairs' mandate to stabilise essential food commodity prices through data-driven market interventions.
 
 ---
 
