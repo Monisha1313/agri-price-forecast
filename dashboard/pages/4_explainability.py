@@ -21,9 +21,9 @@ df = pd.read_csv(feat_path, parse_dates=['date'])
 df = df.sort_values('date').reset_index(drop=True)
 
 # --- SHAP plots if available ---
-shap_bar = 'docs/shap_bar.png'
-shap_bee = 'docs/shap_beeswarm.png'
-shap_dep = 'docs/shap_dependence.png'
+shap_bar = os.path.join(BASE, 'docs/shap_bar.png')
+shap_bee = os.path.join(BASE, 'docs/shap_beeswarm.png')
+shap_dep = os.path.join(BASE, 'docs/shap_dependence.png')
 
 if os.path.exists(shap_bar):
     st.subheader("SHAP Feature Importance (XGBoost)")
