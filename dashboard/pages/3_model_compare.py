@@ -10,13 +10,15 @@ st.set_page_config(page_title="Model Comparison", page_icon="📊", layout="wide
 st.title("📊 Model Performance Comparison")
 st.caption("All models trained on 2023–2024 data, evaluated on 2025 held-out test set")
 
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+
 METRICS_FILES = {
-    'SARIMA (Baseline)': 'docs/metrics_sarima.json',
-    'GRU':               'docs/metrics_gru.json',
-    'LSTM':              'docs/metrics_lstm.json',
-    'XGBoost':           'docs/metrics_xgboost.json',
-    'LightGBM':          'docs/metrics_lightgbm.json',
-    'Ensemble':          'docs/metrics_ensemble.json',
+    'SARIMA (Baseline)': os.path.join(BASE, 'docs/metrics_sarima.json'),
+    'GRU':               os.path.join(BASE, 'docs/metrics_gru.json'),
+    'LSTM':              os.path.join(BASE, 'docs/metrics_lstm.json'),
+    'XGBoost':           os.path.join(BASE, 'docs/metrics_xgboost.json'),
+    'LightGBM':          os.path.join(BASE, 'docs/metrics_lightgbm.json'),
+    'Ensemble':          os.path.join(BASE, 'docs/metrics_ensemble.json'),
 }
 
 all_metrics = []

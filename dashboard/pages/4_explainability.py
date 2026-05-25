@@ -11,7 +11,8 @@ st.title("🔍 Model Explainability")
 st.caption("Understanding what drives onion price predictions")
 
 # Load feature matrix
-feat_path = 'data/processed/features_onion.csv'
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+feat_path = os.path.join(BASE, 'data/processed/features_onion.csv')
 if not os.path.exists(feat_path):
     st.warning("Feature matrix not found. Run: `python -m src.features.engineer`")
     st.stop()
