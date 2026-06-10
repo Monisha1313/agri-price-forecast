@@ -204,7 +204,7 @@ Draft: `docs/paper_notes.md`
 
 **Monisha** | AI/ML Engineering Student
 - GitHub: [@Monisha1313](https://github.com/Monisha1313)
-- LinkedIn: [Your LinkedIn URL]
+- LinkedIn: [Monisha Shivakumar](https://www.linkedin.com/in/monisha-shivakumar-157474211/)
 
 ---
 
